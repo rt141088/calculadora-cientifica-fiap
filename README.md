@@ -1,7 +1,8 @@
-# Calculadora de Idade FIAP
+# Calculadora Científica FIAP
 
 ## 📋 Descrição
-Programa console em C# para calcular a idade de uma pessoa com base na data de nascimento e verificar se é maior de idade e pode tirar carteira de habilitação.
+Calculadora científica desenvolvida para o Checkpoint 1 da disciplina de Programação em C# e .NET. 
+Inclui operações básicas e funções científicas como raiz quadrada e potenciação.
 
 ## 👨‍💻 Desenvolvedores
 - Rafael Terra Teodoro - RM: 560955
@@ -9,22 +10,24 @@ Programa console em C# para calcular a idade de uma pessoa com base na data de n
 - Otoniel Arantes Barbado - RM: 560112
 
 ## 🚀 Funcionalidades
-- Entrada de nome completo e data de nascimento
-- Cálculo preciso da idade
-- Verificação de maioridade
-- Informação sobre habilitação para dirigir
+- Operações básicas (+, -, ×, ÷)
+- Raiz quadrada (√)
+- Potenciação (x^y)
+- Botão de clear (C)
+- Interface Windows Forms
 
 ## 🛠 Tecnologias
 - C#
-- .NET 8.0
-- Console Application
+- .NET Framework 4.7.2
+- Windows Forms
 - Visual Studio 2022
 
 ## 📦 Como Executar
-1. Abra o arquivo `CalculadoraIdade.sln` no Visual Studio 2022
+1. Abra o arquivo `CalculadoraCientificaNova.sln` no Visual Studio 2022
 2. Pressione F5 para compilar e executar
-3. Siga as instruções no console
+3. Use os botões para realizar cálculos
 
-## ⚙️ Estrutura do Projeto
-- `Program.cs` - Contém a struct Pessoa e lógica principal
-- Utiliza struct obrigatória conforme especificação
+## 📝 Estrutura do Projeto
+- `Form1.cs` - Formulário principal da calculadora
+- `FormSobre.cs` - Formulário "Sobre"
+- `Program.cs` - Ponto de entrada da aplicação
